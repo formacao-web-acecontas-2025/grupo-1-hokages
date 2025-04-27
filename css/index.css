@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(rgb(236, 236, 236)  );
+   
+}
+.camada{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 123, 0, 0.39);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(165, 108, 42, 0.596);
+}
+
+.camada h1{
+    text-align: center;
+    margin-top: 60px;
+}
+.camada img{
+    border-radius: 7px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.349);
+    transition: 0.1s ease-in-out;
+}
+
+.camada img:hover{
+   transform: scale(1.2);
+}
+
+.camada img::before(:hover) {
+    content: "os preço";
+    display: flex;
+}
+
+.base{
+    background:   rgba(255, 153, 0, 0.075);
+}
+
+.base h2{
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pilar{
+    display: flex;
+    justify-content: space-around;
+    background: fixed;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(42, 130, 165, 0.596);
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(255, 123, 0, 0.39);
+    box-shadow: inset;
+}
+
+.top img{
+    margin-left: 30px;
+}
+
+.top h1{
+    margin-top: 20px;
+    margin-right: 30px; 
+}
+
+.comentario{
+    display: flex;
+    justify-content: space-around;
+}
+
+.descricao{
+    width: 300px;
+    height: 100px;  
+    background: rgba(250, 250, 250, 0.753);
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.349);
+    transition: 0.5s all ease-in-out;
+}
+
+.descricao h2{
+    font-size: 10px;
+}
+
+.descricao:hover{
+    transform: scale(1.2);
+    background-color: rgba(255, 123, 0, 0.39);
+}
+
+.social-icon:hover {
+    color: #ffc107 !important;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+footer.text-white {
+    color: #F5F5DC;
+}
+
+.valores-icones i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.titulo_comentarios{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.btn.btn-primary{
+    background-color: black;
+}
